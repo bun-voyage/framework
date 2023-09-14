@@ -1,0 +1,15 @@
+{
+  "name": "bun-voyage",
+  "module": "app/src/main.ts",
+  "devDependencies": {
+    "bun-types": "latest",
+    "reflect-metadata": "^0.1.13"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "run": "bun run app/src/main.ts"
+  },
+  "type": "module"
+}
